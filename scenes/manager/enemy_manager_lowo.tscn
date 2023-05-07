@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d33wiospl8iio"]
+
+[ext_resource type="Script" path="res://EnemyManager_lowo.gd" id="1_kh743"]
+[ext_resource type="PackedScene" uid="uid://5b53nhv072lx" path="res://scenes/manager/enemey_lowo.tscn" id="2_wypbf"]
+
+[node name="EnemyManager_lowo" type="Node"]
+script = ExtResource("1_kh743")
+enemey_lowo_scene = ExtResource("2_wypbf")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
